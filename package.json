@@ -4,7 +4,7 @@
   "description": "A project setup with Babel and Jest for successful deployment",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel src -d lib", // Specify source directory
+    "build": "babel src -d lib",
     "prebuild": "jest --passWithNoTests",
     "test": "jest",
     "start": "node lib/index.js"
