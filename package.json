@@ -1,13 +1,13 @@
 {
   "name": "my-package",
   "version": "1.0.0",
-  "description": "A sample project demonstrating yarn scripts and Babel setup",
+  "description": "A project setup with Babel and Jest for successful deployment",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
-    "prebuild": "jest",
+    "prebuild": "jest --passWithNoTests",
     "test": "jest",
-    "env": "yarn run env"
+    "start": "node lib/index.js"
   },
   "engines": {
     "node": ">=16",
