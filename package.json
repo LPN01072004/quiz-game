@@ -12,3 +12,6 @@
     "prebuild": "jest"
   }
 }
+"engines": {
+  "node": ">=16"
+}
