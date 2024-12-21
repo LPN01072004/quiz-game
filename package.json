@@ -1,15 +1,17 @@
 {
   "name": "my-package",
   "version": "1.0.0",
-  "description": "A sample project using Babel and Jest",
+  "description": "A sample project demonstrating yarn scripts and Babel setup",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
     "prebuild": "jest",
-    "test": "jest"
+    "test": "jest",
+    "env": "yarn run env"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=16",
+    "yarn": ">=1.22"
   },
   "author": "Your Name",
   "license": "MIT",
